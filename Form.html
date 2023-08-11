@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="php.backend" method="post">
+        <table>
+            <tr>
+                <td><label for="Username">Username</label></td>
+                <td><input type="text" id="Username" required placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password</label></td>
+                <td><input type="password" id="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="email" id="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB</label></td>
+                <td><input type="date" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Time">Time</label></td>
+                <td><input type="datetime-local" name="" id="Time"></td>
+            </tr>
+            <tr>
+                <td><label for="Phone-no">Phone-no</label></td>
+                <td><input type="tel" id="Phone-no"></td>
+            </tr>
+            <tr>
+                <td><label for="Number">Number</label></td>
+                <td><input type="number" id="Number"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    Male <input type="radio" name="Gender" id="">
+                    Female <input type="radio" name="Gender" id=""> 
+                    Other <input type="radio" name="Gender" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Hobbies">Hobbies</label></td>
+                <td>
+                    Dancing <input type="checkbox" name="" id=""checked disabled>
+                    Swimming <input type="checkbox" name="" id="">
+                    Learning <input type="checkbox" name="" id="">
+                    Music <input type="checkbox" name="" id="">
+                    Travel <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Enter-Hobbies">Enter-Hobbies</label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Food">Food</label></td>
+                <td><input list="Food2" name="Food2" id="Food">
+                    <datalist id="Food2">
+                        <option value="Pizza">Pizza</option>
+                        <option value="Samosa">Samosa</option>
+                        <option value="Sendwich">Sendwich</option>
+                        <option value="Jalebi">Jalebi</option>
+                    </datalist>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="City">City</label></td>
+                <td>
+                    <select>
+                        <option value="">Enter your City</option>
+                        <option value="">Ahmedabad</option>
+                        <option value="">Rajkot</option>
+                        <option value="">Surat</option>
+                        <option value="">Jamnagar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Education">Education</label></td>
+                <td>
+                    <select multiple>
+                        <option value="">10th</option>
+                        <option value="">12th</option>
+                        <option value="">B.com</option>
+                        <option value="">B.B.A.</option>
+                        <option value="">BCA</option>
+                        <option value="">BSC</option>
+                        <option value="">PHD</option>
+                        <option value="">IT</option>
+                        <option value="">MBA</option>
+                        <option value="">M.com</option>
+                        <option value="">MCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Colour">Colour</label></td>
+                <td><input type="color" name="" id="Colour"></td>
+            </tr>
+            <tr>
+                <td><label for="Range">Range</label></td>
+                <td>0<input type="range" name="" value="25" id="Range">100</td>
+            </tr>
+            <tr>
+                <td><label for="Readmore">Readmore</label></td>
+                <td><input type="button" value="Readmore"><button>Readmore</button></td>
+            </tr>
+            <tr>
+                <td><label for="Reset">Reset</label></td>
+                <td><input type="reset" value="Reset" ></td>
+                <td><label for="Submit">Submit</label></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
